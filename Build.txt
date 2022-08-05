@@ -1,0 +1,4 @@
+set ModPath="C:\Tools\ModKit\modProperAlchemy"
+
+wcc_lite pack -dir=%ModPath%\Uncooked -outdir=%ModPath%\content
+wcc_lite metadatastore -path=%ModPath%\content
